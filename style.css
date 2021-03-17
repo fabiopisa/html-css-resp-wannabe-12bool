@@ -27,7 +27,7 @@
 
 /* COMMON */
 
-.container.grey {
+.container-s.grey {
   background-color: #f9f9f9;
 }
 
@@ -39,7 +39,13 @@ img {
   clear: both;
 }
 
-@media screen and (max-width:420px) {
+@media all and (min-width: 768px) and (max-width:991px){
+  .padding-md{
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width:768px) {
  
   #lezioni .container [class*="col-"],
   #steps .container [class*="col-"] {
